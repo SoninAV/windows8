@@ -1,0 +1,42 @@
+body {
+    background-color: #180052;
+    font-size: 0;
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}
+
+.group {
+    display: flex;
+    gap: 10px;
+}
+
+.group_right {
+    padding-right: 100px;
+}
+
+.colomn {
+    width: min-content;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.big-square {
+    width: 200px;
+    height: 210px;
+    background-color: seagreen;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.small-square {
+    width: 95px;
+    height: 100px;
+    background-color: firebrick;
+}
